@@ -1,0 +1,33 @@
+:root {
+  --baby-blue-light: #AEE3FA; // Light baby blue
+  --baby-blue-medium: #7FC7E3; // Medium baby blue
+  --baby-blue-dark: #4E97B9; // Dark baby blue
+  --baby-blue-accent: #50C0FF; // Baby blue accent color
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Martian+Mono:wght@400;700&family=Seymour+One&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Lato', sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--baby-blue-light);
+
+
+
+
+}
